@@ -65,7 +65,9 @@ The simulator serves as an important tool for experimenting on the characteristi
 2. Quantum communication systems, Simulating cognitive radios for space applications
 3. Climate and weather monitoring on Earth and distant planets (Further Reference: [https://www.nasa.gov/general/five-ways-nasa-supercomputing-takes-missions-from-concept-to-reality/](https://www.nasa.gov/general/five-ways-nasa-supercomputing-takes-missions-from-concept-to-reality/)
 4. Algorithmic trading (Further Reading- Algorithmic Trading HPC and AI Reference Guide:[https://www.delltechnologies.com/asset/en-us/products/ready-solutions/industry-market/hpc-ai-algorithmic-trading-guide.pdf](https://www.delltechnologies.com/asset/en-us/products/ready-solutions/industry-market/hpc-ai-algorithmic-trading-guide.pdf) by Dell)
-Happy Discovering!!!
+
+   
+## Happy Discovering!!!
 
 References:
 
