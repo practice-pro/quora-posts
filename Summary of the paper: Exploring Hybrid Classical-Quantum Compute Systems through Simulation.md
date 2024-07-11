@@ -45,13 +45,13 @@ Hardware Components:
 
 1. Processing Unit: This is an object that consists of a compute model and a task queue that has the task set given by the head/owner node. The functions are defined within the compute and task_handles methods, respectively, including the policies and signals.
 2. Node: There are two types of nodes in the system, called the head and compute node. The head node keeps a track of the processes and assigns them to the available PUs using the scheduling policies. The compute node then performs the required computations to finish the job.
-3. Network: Shows the connectivity of all the nodes to facilitate exchange of tasks and messages. The initial model follows a static implementation of the network latency model needed to transmit messages effectively, without a serious consideration on all network parameters.
+3. Network:  Shows the connectivity of all the nodes to facilitate exchange of tasks and messages. The initial model follows a static implementation of the network latency model needed to transmit messages effectively, without a serious consideration on all network parameters.
 
 
 Software Components:
 
 1. Task: Represents a classical computation, quantum computation, data-flow or communication. Associated with an owner node and owner process.
-2. Taskgraph: A model of the behavior of an application, or an intermediary representation with an acyclic graph consisting of task nodes and dependency edges. The simulator comes pre-built with common application types.
+2. Taskgraph:  A model of the behavior of an application, or an intermediary representation with an acyclic graph consisting of task nodes and dependency edges. The simulator comes pre-built with common application types.
 3. Process: Executing instance of the taskgraph. Associated with an identification number.
 4. Job: An encapsulated representation of the task, having the type and number of compute nodes required to run, and details of interdependent processes.
 
@@ -67,7 +67,7 @@ The simulator serves as an important tool for experimenting on the characteristi
 4. Algorithmic trading (Further Reading- Algorithmic Trading HPC and AI Reference Guide:[https://www.delltechnologies.com/asset/en-us/products/ready-solutions/industry-market/hpc-ai-algorithmic-trading-guide.pdf](https://www.delltechnologies.com/asset/en-us/products/ready-solutions/industry-market/hpc-ai-algorithmic-trading-guide.pdf) by Dell)
 
    
-## Happy Discovering!!!
+#### Happy Discovering!!!
 
 References:
 
