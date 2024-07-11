@@ -17,11 +17,15 @@ This involves two steps, namely,
 
 1. The placement of hardware components (the Processing Unit, Nodes, Networks) to establish a communication interface between the quantum and HPC systems.
 2. Integration of software stacks and applications of the two systems.
+
+
 Key considerations during integration are:
 
 1. Latency
 2. Fine-grained scheduling for proper resource allocation
 3. Characteristics of hybrid applications in use like Variational Quantum Algorithms
+
+
 Scheduling algorithms used :
 
 1. FIFO: Similar to the operation of a queue, works in the order of entry of processes
@@ -42,13 +46,16 @@ Hardware Components:
 1. Processing Unit: This is an object that consists of a compute model and a task queue that has the task set given by the head/owner node. The functions are defined within the compute and task_handles methods, respectively, including the policies and signals.
 2. Node: There are two types of nodes in the system, called the head and compute node. The head node keeps a track of the processes and assigns them to the available PUs using the scheduling policies. The compute node then performs the required computations to finish the job.
 3. Network: Shows the connectivity of all the nodes to facilitate exchange of tasks and messages. The initial model follows a static implementation of the network latency model needed to transmit messages effectively, without a serious consideration on all network parameters.
+
+
 Software Components:
 
 1. Task: Represents a classical computation, quantum computation, data-flow or communication. Associated with an owner node and owner process.
 2. Taskgraph: A model of the behavior of an application, or an intermediary representation with an acyclic graph consisting of task nodes and dependency edges. The simulator comes pre-built with common application types.
 3. Process: Executing instance of the taskgraph. Associated with an identification number.
 4. Job: An encapsulated representation of the task, having the type and number of compute nodes required to run, and details of interdependent processes.
-Conclusion:
+
+## Conclusion:
 
 The simulator serves as an important tool for experimenting on the characteristics of HPCQC system to check the efficiency in completing jobs and their dependency on network latency, coupling frequency that measures the number of different classical and quantum computation tasks, classical to quantum compute ratio, and task level scheduling policies. The experiments can be currently done with mid-size quantum systems. Improvements in quantum systems and optimizations in scheduling algorithms and compilation could be added to the simulator to help in the standardization of integration of HPC and QC.
 
