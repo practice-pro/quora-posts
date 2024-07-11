@@ -27,10 +27,6 @@ I write on Quora about cutting-edge research,concepts, summarizing and analyzing
 - **1st Runner-Up** in the Smartest and Impactful AI Solutions Challenge held by Smart Tech LLC, 2023.
 - **2nd Runner-Up** in the Shaastra Biotech Innovation Challenge 2024 held by IIT Madras.
 
-## Technical Skills
-- **Programming Languages:** Python (Machine Learning, Data Science, Geospatial Analysis, Statistics, Multiprocessing, Basic Web Development)
-- **Simulation Tools:** VMD, NAMD
-- **Quantum Computing:** Qiskit
 
 ## Certifications and Affiliations
 - **NASA Open Science Certified**
